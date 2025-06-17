@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	
+	Definir temperatura1, temperatura2, temperatura3, temperatura4, temperatura5,promedio Como Entero
+	escribir "ingrese la primera temperatura"
+	Leer temperatura1
+	Escribir "ingrese la segunda temperatura"
+	Leer  temperatura2
+	Escribir "ingrese la tercera temperatura"
+	Leer temperatura3
+	Escribir "ingrese la cuarta temperatura"
+	Leer temperatura4
+	Escribir "ingrese la quinta temperatura"
+	leer temperatura5
+	
+	promedio<- (temperatura1+temperatura2+temperatura3+temperatura4+temperatura5)/5
+	
+	Escribir "el promedio de las 5 temperaturas es " promedio 
+FinAlgoritmo
