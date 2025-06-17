@@ -1,1 +1,14 @@
-definir num1,num2
+algortimo 
+
+definir  num1,num2  promedio como entero 
+
+escribir "ingrese el primer numero" 
+leer num1
+escribir "ingrese el segundo numero" 
+leer num2 
+
+promedio = num1 + num2
+
+escribir "el resultado es: " promedio 
+
+Finalgoritmo
