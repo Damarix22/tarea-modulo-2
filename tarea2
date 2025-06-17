@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	
+	definir  calificacion1, calificacion2, calificacion3 , promedio Como real
+	escribir"ingrese por favor la primera calificacion1"
+	Leer calificacion1
+	
+	Escribir "ingrese por favor la segunda calificacion2"
+	Leer calificacion2
+	
+	Escribir "ingrese por favor la tercera calificacion3"
+	Leer calificacion3
+	
+	promedio = calificacion1+calificacion2+calificacion3 / 3  
+	
+    Escribir "el promedio de las calificaciones es igual a " , promedio
+	
+FinAlgoritmo
