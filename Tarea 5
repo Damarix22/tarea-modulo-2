@@ -1,0 +1,39 @@
+Algoritmo sin_titulo
+	definir tipodepelicula Como caracter 
+	
+	Definir  horario Como caracter
+	
+	
+	escribir "ingrese el tipo de pelicula (A,B o C)"
+	leer tipodepelicula 
+	
+	escribir " ingrese el horario (normal o reducido)"
+	leer horario 
+	
+	
+	SI tipodepelicula = "A" Entonces
+		si horario= "normal" Entonces
+			costo <- 1200 
+		sino
+			costo <- 1000
+			
+		FinSi
+		
+	SiNo si tipodepelicula = "B" Entonces
+			si horario= "normal" Entonces
+			 costo<-1500
+		    SiNo
+			 costo<-1300
+			finsi
+		
+	SiNo si tipodepelicula = "c" Entonces
+				costo=1800
+			FinSi
+		finsi
+		
+	FinSi 
+	
+	Escribir "tipo de pelicula", tipodepelicula
+	Escribir "monto total de la entrada: " ,costo, " pesos" 
+	
+FinAlgoritmo
