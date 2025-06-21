@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Definir cont Como Entero
+	cont = 100; 
+	
+	mientras (cont <= 150) 
+		
+		escribir "estoy contando el numero  ", cont  
+		cont= cont + 2 
+	FinMientras
+FinAlgoritmo
