@@ -1,0 +1,58 @@
+Algoritmo sin_titulo
+	
+Definir i Como Entero
+Definir cantidad, resultado Como Real
+Definir origen, destino Como Cadena
+
+Escribir "=== Conversor de Unidades ==="
+
+Para i <- 1 Hasta 6 Con Paso 1
+	Escribir ""
+	Escribir "Conversión ", i, ":"
+	Escribir "Ingresa la cantidad a convertir: "
+	Leer cantidad
+	
+	Escribir "Ingresa la unidad de origen (metros, kilometros, kilogramos, gramos, celsius, fahrenheit):"
+	Leer origen
+	
+	Escribir "Ingresa la unidad de destino:"
+	Leer destino
+	
+	Si origen = "metros" Y destino = "kilometros" Entonces
+		resultado <- cantidad / 1000
+	Sino
+		Si origen = "kilometros" Y destino = "metros" Entonces
+			resultado <- cantidad * 1000
+		Sino
+			Si origen = "kilogramos" Y destino = "gramos" Entonces
+				resultado <- cantidad * 1000
+			Sino
+				Si origen = "gramos" Y destino = "kilogramos" Entonces
+					resultado <- cantidad / 1000
+				Sino
+					Si origen = "celsius" Y destino = "fahrenheit" Entonces
+			                 resultado <- (cantidad * 9 / 5) + 32
+					   Sino
+			              Si origen = "fahrenheit" Y destino = "celsius" Entonces
+				              resultado <- (cantidad - 32) * 5 / 9
+						  Sino
+							  Escribir "Unidades no válidas. Intenta nuevamente."
+							  
+							  
+						  fin si 
+					 fin si 
+				 FinSi
+				
+			FinSi 
+			
+		FinSi
+		
+	FinSi
+	
+	
+
+Escribir "Resultado: ", cantidad, " ", origen, " = ", resultado, " ", destino
+FinPara
+FinProceso
+
+
