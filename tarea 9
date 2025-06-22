@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	dimension matriz[6,6] 
+	definir f,c Como Entero
+	
+	
+	para f=0 Hasta 5 Con Paso 1 hacer
+		para c=0 Hasta 5 Con Paso 1 hacer
+			si (f == c) Entonces
+				matriz[f,c] = 1 
+				
+			FinSi
+		FinPara
+	FinPara
+	
+	para f=0 Hasta 5 Con Paso 1 hacer
+		para c=0 Hasta 5 Con Paso 1 hacer
+			Escribir ( matriz[f,c]) Sin Saltar
+			
+		FinPara
+		
+		Escribir (" ") 
+	FinPara
+	
+FinAlgoritmo
