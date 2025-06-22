@@ -1,0 +1,26 @@
+Algoritmo sin_titulo
+	
+	Dimension  numeros[6]
+	
+	definir menor Como Entero
+	menor = 50
+	
+	numeros[0]=10
+	numeros[1]=5
+	numeros[2]=15
+	numeros[3]=20
+	numeros[4]=25
+	numeros[5]=30
+	
+	Para i=[0] hasta 5 Con Paso 1 hacer 
+		si (numeros[i]<menor) entonces 
+			menor=numeros[i]
+			posicion=[i]
+		FinSi
+		
+	FinPara
+	
+	
+  
+	Escribir "el menor numero es:  ",menor,"y lo encontre en la posicion ",posicion 
+FinAlgoritmo
