@@ -1,0 +1,45 @@
+Algoritmo sin_titulo
+	dimension matriz[4,4]
+	definir raza Como Caracter
+	definir fila, columna Como Entero
+	definir esta Como Logico
+	
+	Para  f=0 Hasta 3 Con Paso 1 hacer  
+		para  c =0 hasta 3 Con Paso 1 hacer
+			
+			escribir ("ingrese el tipo de fruta")
+			leer matriz[f,c]
+			
+		FinPara
+	FinPara
+	
+	Escribir  ("ingrese el tipo de fruta que quiere buscar ")
+	leer fruta 
+	esta = falso 
+	
+	Para  f=0 Hasta 3 Con Paso 1 hacer  
+		para  c =0 hasta 3 Con Paso 1 hacer
+			
+			si (matriz[f,c]== fruta) entonces 
+				fila = f 
+				columna= c 
+				esta= verdadero 
+				
+			FinSi
+			
+			
+		FinPara
+	FinPara
+	
+	si (esta= verdadero) entonces 
+		   Escribir ("encontramos el tipo de fruta " )
+	        escribir "fila: " fila 
+		    escribir "columna: " columna 
+		   
+	sino 	
+		Escribir "la fruta no se encuentra en la matriz " 
+		
+		
+	FinSi
+	
+FinAlgoritmo
