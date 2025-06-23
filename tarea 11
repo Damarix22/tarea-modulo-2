@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	dimension numeros[6]
+	para i=0 hasta 5 con paso 1 hacer 
+		escribir "ingrese el numero a guardar " 
+		leer numeros[i]
+	FinPara
+	
+	Definir cantidadespositivo, cantidadnegativo como entero
+	cantidadespositivo= 0
+	
+	para i=0 hasta 5 con paso 1 hacer
+		si numeros[i]>0 Entonces
+			
+			cantidadespositivo= cantidadespositivo+1
+			
+		sino 	
+			
+			cantidadnegativo= cantidadnegativo+1
+			
+		FinSi
+		
+		
+	FinPara
+	
+	escribir "la cantidad de numeros positivos es: " cantidadespositivo
+	Escribir "la cantidad de numeros negativos es: " cantidadnegativo
+	
+FinAlgoritmo
