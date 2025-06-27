@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir nombre Como Caracter
+	Definir sualtura Como Real
+	
+	escribir "ingrese su nombre"
+	leer nombre 
+	escribir "ingrese su altura " 
+	leer sualtura
+	
+	
+	Escribir "hola " + nombre + " su altura es:  " sualtura 
+	
+	
+	
+FinAlgoritmo
