@@ -1,0 +1,30 @@
+Algoritmo sin_titulo
+	// 10 participantes 
+	// el menor tiempo que tardo en hacer la prueba 
+	// el numero de participante 
+	
+	// declaremos las variables 
+	
+	definir nume_estudi, tiempo,menortiempo, estudianteganador Como Real
+	menortiempo<- +1 
+	
+	// preguntamos a los 10 estudiantes 
+	Para I=0 Hasta 9 con paso 1 hacer 
+		Escribir "ingrese el numero de estudiante"
+		leer nume_estudi 
+		escribir "ingrese el tiempo de la prueba" 
+		leer tiempo
+		
+		// verificamos si el tiempo es menor 
+		
+		si (tiempo<menortiempo) Entonces
+			
+			menortiempo<-tiempo 
+			estudianteganador<-nume_estudi
+		FinSi
+	FinPara
+	
+	// mostramos quien fue el que tuve menor tiempo 
+	escribir "el estudiante que tuvo menor tiempo es:  " estudianteganador, "con el tiempo de:   " menortiempo
+	
+FinAlgoritmo
