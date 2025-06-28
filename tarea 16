@@ -1,0 +1,38 @@
+Algoritmo sin_titulo
+	//libreria 
+	//7 sevicios 
+	// depende que opcion eliga el cliente
+	// mostrar el costo total
+	
+	definir servicio,total como entero  
+	definir precio_nove, precio_tex, precio_revis Como Real
+	
+	precio_nove<-1500
+	precio_revis<-2000
+	precio_tex<-2500 
+	
+	//armar menu para pedirle al usuario su seleccion 
+	escribir "Bienvenido a la libreria Dami" 
+	Escribir " seleccione la opcion que desea  " 
+	Escribir " 1. para novelas" 
+	Escribir " 2. para libro de textos " 
+	Escribir " 3. para revistas"
+	Escribir " 4. para novelas y libro de textos"
+	Escribir " 5. para todos los libros"
+	Escribir " 6. para novelas y revistas"
+	Escribir " 7.para libro de textos y revistas"  
+	
+	segun servicio hacer 
+		1: total <- precio_nove
+		2: total<- precio_tex
+		3: total<- precio_revis
+		4: total<-precio_nove+ precio_tex
+		5: total<-precio_nove+precio_revis+precio_tex
+		6: total<-precio_nove+precio_revis 
+		7: total<-precio_tex+precio_revis
+	FinSegun
+	//mostrar el total 
+	escribir "el total es:  " total
+	
+	
+FinAlgoritmo
