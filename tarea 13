@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	//calcular el perimetro de un rectangulo usando su ancho y largo 
+	// Perimetro= 2x(ancho+largo) 
+	definir perimetro, ancho, largo Como Real
+	
+	Escribir "ingrese el ancho del rectangulo"
+	leer ancho
+	escribir "ingrese el largo del recangulo" 
+	leer largo
+	
+	perimetro= 2*(ancho+largo) 
+	
+	escribir "El perímetro del rectángulo es   " perimetro 
+	
+	
+FinAlgoritmo
